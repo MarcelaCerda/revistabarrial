@@ -1,0 +1,83 @@
+header{
+    /* position: fixed; */
+    height: 130px;
+    top:0;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+nav{
+    padding-right: 20px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../Imagenes/los-bosques-palermo-01.jpg");
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+header > p {   /* a todas las etiqueta p hijas deheader */
+    color:white;  
+    background-color:black;
+    padding: 15px;
+}
+nav img{
+    width: 140px;
+}
+header a{
+    text-decoration: none;
+    padding: 10px;
+}
+footer{
+    color:white;  
+    background-color:black;
+}
+.main{
+    /* margin-top: 150px; */
+}
+main{
+
+    background-color: rgb(245, 242, 242);
+    /* border: 1px solid blue; */
+}
+.tarjeta{
+    background-color: white;
+    width: 250px ;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+ 
+}
+.containercolumn{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction:column ;
+
+}
+.divPaseos{
+    width: 30%;
+    background-color: white;
+    padding: 1%;
+}
+.divfooter{
+   
+    width: 45%;
+}
+.containercolumn > img{
+    width: 300;
+}
